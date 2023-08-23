@@ -1,12 +1,38 @@
 ﻿using System;
 
-namespace MagicMoose
+Console.WriteLine("Welcome to The Magic Moose Fortune Telling Experience!");
+Console.WriteLine("------------------------------------------------------");
+
+void MooseSays(string message)
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+     Console.WriteLine($@"
+                                       _.--^^^--,
+                                    .'          `\
+  .-^^^^^^-.                      .'              |
+ /          '.                   /            .-._/
+|             `.                |             |
+ \              \          .-._ |          _   \
+  `^^'-.         \_.-.     \   `          ( \__/
+        |             )     '=.       .,   \
+       /             (         \     /  \  /
+     /`               `\        |   /    `'
+     '..-`\        _.-. `\ _.__/   .=.
+          |  _    / \  '.-`    `-.'  /
+          \_/ |  |   './ _     _  \.'
+               '-'    | /       \ |
+                      |  .-. .-.  |
+                      \ / o| |o \ /
+                       |   / \   |    {message}
+                      / `^`   `^` \
+                     /             \
+                    | '._.'         \
+                    |  /             |
+                     \ |             |
+                      ||    _    _   /
+                      /|\  (_\  /_) /
+                      \ \'._  ` '_.'
+                       `^^` `^^^`
+");
 }
+
+MooseSays("Ask me anything!");
